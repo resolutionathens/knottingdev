@@ -1,0 +1,19 @@
+{
+  "name": "knottingdev",
+  "version": "1.0.0",
+  "description": "knottingdev.com",
+  "scripts": {
+    "build:sass": "node-sass --output-style compressed --output themes/blank/static/css/ themes/blank/static/sass/styles.sass",
+    "watch:sass": "onchange 'themes/blank/static/sass/**/*.sass' -- npm run build:sass",
+    "dev": "hugo server && npm run watch:sass"
+  },
+  "author": "Resolution",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.8.3",
+    "onchange": "^3.3.0"
+  },
+  "dependencies": {
+    "npm": "^6.0.0"
+  }
+}

@@ -1,0 +1,4 @@
+baseURL = "http://knottingdev.resolutionathens.com/"
+languageCode = "en-us"
+title = "Knotting Developments"
+theme = "blank"
